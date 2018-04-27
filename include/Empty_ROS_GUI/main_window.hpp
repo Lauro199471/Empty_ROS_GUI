@@ -1,10 +1,3 @@
-/**
- * @file /include/Empty_ROS_GUI/main_window.hpp
- *
- * @brief Qt based gui for Empty_ROS_GUI.
- *
- * @date November 2010
- **/
 #ifndef Empty_ROS_GUI_MAIN_WINDOW_H
 #define Empty_ROS_GUI_MAIN_WINDOW_H
 
@@ -48,11 +41,6 @@ public Q_SLOTS:
 	void on_actionAbout_triggered();
 	void on_button_connect_clicked(bool check );
 	void on_checkbox_use_environment_stateChanged(int state);
-
-    /******************************************
-    ** Manual connections
-    *******************************************/
-    void updateLoggingView(); // no idea why this can't connect automatically
 
 private:
 	Ui::MainWindowDesign ui;
